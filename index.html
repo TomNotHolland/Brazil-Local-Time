@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+			rel="stylesheet"
+		/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clock</title>
+	</head>
+	<body onload="StartCounting()">
+    <div class="clock">
+			<div class="time">
+				<span id="hour" class="hour">00</span>:
+        <span id="minutes" class="minutes">00</span>:
+        <span id="seconds" class="seconds">00</span>
+      </div>
+      <div class="date">
+				<span id="dayName" class="dayName">Dia</span>,
+        <span id="dayNumber" class="dayNumber">1</span> de
+        <span id="monthName" class="monthName">Mês</span>
+      </div>
+    </div>
+		<div class="footer">
+			<span class="owner">Feito por: Tom Melo</span>
+			<a href="https://github.com/TomNotHolland" target="_blank">
+				<img src="icons/icons8-github.svg" alt="Github"/>
+			</a>
+			<a href="https://www.linkedin.com/in/tom-mello/" target="_blank">
+				<img src="icons/icons8-linkedin.svg" alt="LinkedIn"/>
+			</a>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
